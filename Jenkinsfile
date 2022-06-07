@@ -1,5 +1,6 @@
 pipeline {
-    agent demoAgent {
+    agent node {
+        labe 'demoAgent'
     }
 
     stages {
